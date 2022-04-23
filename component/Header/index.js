@@ -33,22 +33,14 @@ function Header() {
 
         <ul className="buy-button list-inline mb-0">
           <li className="list-inline-item mb-0 pe-1">
-            <a href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+            <span data-bs-toggle="offcanvas" data-bs-target="offcanvasTop" aria-controls="offcanvasTop">
               <i className="uil uil-search h5 text-dark align-middle"></i>
-            </a>
+            </span>
           </li>
 
           <li className="list-inline-item mb-0">
-            <a href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <a>
               <div className="btn btn-icon btn-pills btn-soft-primary">
-                <SettingIcon />
-              </div>
-            </a>
-          </li>
-
-          <li className="list-inline-item ps-1 mb-0">
-            <a href="https://1.envato.market/4n73n">
-              <div className="btn btn-icon btn-pills btn-primary">
                 <SettingIcon />
               </div>
             </a>

@@ -14,38 +14,38 @@ class MyDocument extends Document {
           <meta name="website" content="https://shreethemes.in" />
           <meta name="Version" content="v3.8.0" />
 
-          <Link rel="shortcut icon" href="asset/images/favicon.ico" />
+          <link rel="shortcut icon" href="asset/images/favicon.ico" />
 
-          <Link href="asset/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+          <link href="asset/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
-          <Link href="asset/css/tobii.min.css" rel="stylesheet" type="text/css" />
+          <link href="asset/css/tobii.min.css" rel="stylesheet" type="text/css" />
 
-          <Link href="asset/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-          <Link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
+          <link href="asset/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+          <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
 
-          <Link rel="stylesheet" href="asset/css/tiny-slider.css" />
+          <link rel="stylesheet" href="asset/css/tiny-slider.css" />
 
-          <Link href="asset/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+          <link href="asset/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
 
-          <Link href="asset/css/colors/default.css" rel="stylesheet" id="color-opt" />
+          <link href="asset/css/colors/default.css" rel="stylesheet" id="color-opt" />
         </Head>
         <body>
           <Main />
           <NextScript />
 
-          <Script src="asset/js/bootstrap.bundle.min.js" />
+          <script src="asset/js/bootstrap.bundle.min.js" />
 
-          <Script src="asset/js/tiny-slider.js "></Script>
+          <script src="asset/js/tiny-slider.js "></script>
 
-          <Script src="asset/js/tobii.min.js "></Script>
+          <script src="asset/js/tobii.min.js "></script>
 
-          <Script src="asset/js/feather.min.js"></Script>
+          <script src="asset/js/feather.min.js"></script>
 
-          <Script src="asset/js/switcher.js"></Script>
+          <script src="asset/js/switcher.js"></script>
 
-          <Script src="asset/js/plugins.init.js"></Script>
+          <script src="asset/js/plugins.init.js"></script>
 
-          <Script src="asset/js/app.js"></Script>
+          <script src="asset/js/app.js"></script>
         </body>
       </Html>
     );
