@@ -15,10 +15,10 @@ function HomePage() {
       <Slide />
       <SearchBar />
       <PopularPost />
-      {/* <RecentPost /> */}
-      {/* <EndBody /> */}
+      <RecentPost />
+      <EndBody />
       {/* <InstaPost /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

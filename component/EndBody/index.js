@@ -1,6 +1,6 @@
 import React from 'react';
 import ArrowRight from '../../Icon/ArrowRight';
-
+import Heart from '../../Icon/Heart';
 function EndBody() {
   return (
     <section className="section">
@@ -49,7 +49,7 @@ function EndBody() {
           <div className="col-md-4 mt-4 mt-sm-0">
             <div className="text-center text-md-end">
               <a href="javascript:void(0)" className="btn btn-soft-primary">
-                See More <i data-feather="arrow-right" className="fea icon-sm"></i>
+                See More <ArrowRight />
               </a>
             </div>
           </div>
@@ -72,7 +72,7 @@ function EndBody() {
                   <ul className="list-unstyled mb-0">
                     <li className="list-inline-item me-2 mb-0">
                       <a href="javascript:void(0)" className="text-muted like">
-                        <i className="uil uil-heart me-1"></i>33
+                        <Heart />
                       </a>
                     </li>
                     <li className="list-inline-item">
@@ -196,7 +196,7 @@ function EndBody() {
           <div className="col-md-4 mt-4 mt-sm-0">
             <div className="text-center text-md-end">
               <a href="javascript:void(0)" className="btn btn-soft-primary">
-                See More <i data-feather="arrow-right" className="fea icon-sm"></i>
+                See More <ArrowRight />
               </a>
             </div>
           </div>
@@ -339,7 +339,7 @@ function EndBody() {
                     People are podcasting <br /> all over the world
                   </h2>
                   <a href="javascript:void(0)" className="btn btn-primary">
-                    Read More <i data-feather="arrow-right" className="fea icon-sm"></i>
+                    Read More thiu icon
                   </a>
                 </div>
               </div>

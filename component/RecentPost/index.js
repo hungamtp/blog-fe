@@ -19,7 +19,7 @@ function RecentPost() {
           <div className="col-md-4 mt-4 mt-sm-0">
             <div className="text-center text-md-end">
               <a href="javascript:void(0)" className="btn btn-soft-primary">
-                See More <i data-feather="arrow-right" className="fea icon-sm"></i>
+                See More <ArrowRight />
               </a>
             </div>
           </div>
@@ -151,7 +151,7 @@ function RecentPost() {
         </div>
       </div>
 
-      <div className="container-fluid mt-100 mt-60">
+      {/* <div className="container-fluid mt-100 mt-60">
         <div className="rounded-md shadow-md py-5 position-relative" style={{ background: "url('/asset/images/3.jpg') center center;" }}>
           <div className="bg-overlay rounded-md"></div>
           <div className="container py-5">
@@ -167,7 +167,7 @@ function RecentPost() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

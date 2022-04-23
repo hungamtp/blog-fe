@@ -1,5 +1,7 @@
 import React from 'react';
+import FaceBook from '../../Icon/FaceBook';
 import InstagramIcon from '../../Icon/InstagramIcon';
+import Linkedin from '../../Icon/Linkedin';
 import MailIcon from '../../Icon/MailIcon';
 
 function Footer() {
@@ -16,22 +18,17 @@ function Footer() {
                     <ul className="list-unstyled social-icon foot-social-icon mb-0 mt-4">
                       <li className="list-inline-item">
                         <a href="javascript:void(0)" className="rounded">
-                          <i data-feather="facebook" className="fea icon-sm fea-social"></i>
+                          <FaceBook />
                         </a>
                       </li>
                       <li className="list-inline-item">
                         <a href="javascript:void(0)" className="rounded">
-                          <i data-feather="instagram" className="fea icon-sm fea-social"></i>
+                          <InstagramIcon />
                         </a>
                       </li>
                       <li className="list-inline-item">
                         <a href="javascript:void(0)" className="rounded">
-                          <i data-feather="twitter" className="fea icon-sm fea-social"></i>
-                        </a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a href="javascript:void(0)" className="rounded">
-                          <i data-feather="linkedin" className="fea icon-sm fea-social"></i>
+                          <Linkedin />
                         </a>
                       </li>
                     </ul>
@@ -125,7 +122,7 @@ function Footer() {
                               Write your email <span className="text-danger">*</span>
                             </label>
                             <div className="form-icon position-relative">
-                              <i data-feather="mail" className="fea icon-sm icons"></i>
+                              <MailIcon className="feather feather-mail fea icon-sm icons" />
                               <input
                                 type="email"
                                 name="email"
@@ -200,14 +197,14 @@ function Footer() {
           <div className="container text-center">
             <div className="row justify-content-center">
               <div className="col-sm-12">
-                <p className="mb-0">
+                {/* <p className="mb-0">
                   © <script>document.write(new Date().getFullYear())</script> Landrick. Design with{' '}
                   <i className="mdi mdi-heart text-danger"></i> by{' '}
                   <a href="https://shreethemes.in/" className="text-reset">
                     Shreethemes
                   </a>
                   .
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -235,7 +232,7 @@ function Footer() {
                     <div id="simple-msg"></div>
                     <div className="row">
                       <div className="col-md-6">
-                        <div className="mb-3">
+                        {/* <div className="mb-3">
                           <label className="form-label">
                             Your Name <span className="text-danger">*</span>
                           </label>
@@ -243,7 +240,7 @@ function Footer() {
                             <i data-feather="user" className="fea icon-sm icons"></i>
                             <input name="name" id="name" type="text" className="form-control ps-5" placeholder="Name :" />
                           </div>
-                        </div>
+                        </div> */}
                       </div>
 
                       <div className="col-md-6">
@@ -262,7 +259,7 @@ function Footer() {
                         <div className="mb-3">
                           <label className="form-label">Subject</label>
                           <div className="form-icon position-relative">
-                            <i data-feather="book" className="fea icon-sm icons"></i>
+                            <i class="fa-solid fa-chevron-right"></i>
                             <input name="subject" id="subject" className="form-control ps-5" placeholder="subject :" />
                           </div>
                         </div>
@@ -274,7 +271,7 @@ function Footer() {
                             Comments <span className="text-danger">*</span>
                           </label>
                           <div className="form-icon position-relative">
-                            <i data-feather="message-circle" className="fea icon-sm icons clearfix"></i>
+                            {/* <i data-feather="message-circle" className="fea icon-sm icons clearfix"></i> */}
                             <textarea
                               name="comments"
                               id="comments"
@@ -374,7 +371,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="cookie-popup bg-white shadow rounded py-3 px-4">
+      {/* <div className="cookie-popup bg-white shadow rounded py-3 px-4">
         <p className="text-muted mb-0">
           This website uses cookies to provide you with a great user experience. By using it, you accept our{' '}
           <a href="https://shreethemes.in" className="text-success h6">
@@ -386,11 +383,11 @@ function Footer() {
             <i className="uil uil-times text-dark fs-4"></i>
           </button>
         </div>
-      </div>
+      </div> */}
 
-      <a href="#" onclick="topFunction()" id="back-to-top" className="back-to-top fs-5">
+      {/* <a href="#" onclick="topFunction()" id="back-to-top" className="back-to-top fs-5">
         <i data-feather="arrow-up" className="fea icon-sm icons align-middle"></i>
-      </a>
+      </a> */}
 
       <div id="style-switcher" className="bg-light border p-3 pt-2 pb-2" onclick="toggleSwitcher()">
         <div>
