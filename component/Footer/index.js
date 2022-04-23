@@ -340,37 +340,6 @@ function Footer() {
         </div>
       </div>
 
-      <div className="offcanvas bg-white offcanvas-top" tabIndex="-1" id="offcanvasTop">
-        <div className="offcanvas-body d-flex align-items-center align-items-center">
-          <div className="container">
-            <div className="row">
-              <div className="col">
-                <div className="text-center">
-                  <h4>Search now.....</h4>
-                  <div className="subcribe-form mt-4">
-                    <form>
-                      <div className="mb-0">
-                        <input
-                          type="text"
-                          id="help"
-                          name="name"
-                          className="border bg-white rounded-pill"
-                          required=""
-                          placeholder="Search"
-                        />
-                        <button type="submit" className="btn btn-pills btn-primary">
-                          Search
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* <div className="cookie-popup bg-white shadow rounded py-3 px-4">
         <p className="text-muted mb-0">
           This website uses cookies to provide you with a great user experience. By using it, you accept our{' '}

@@ -12,6 +12,12 @@ function Header() {
       isOpen.style.display = 'block';
     }
   };
+
+  const displayBoxSearch = () => {
+    // const body = document.getElementsByTagName('body');
+    // body.style.overflow = 'hiddent';
+    // body.padding-right = 15px
+  };
   return (
     <header id="topnav" className="defaultscroll sticky bg-white">
       <div className="container">
@@ -30,12 +36,39 @@ function Header() {
             </a>
           </div>
         </div>
-
+        <div className="offcanvas bg-white offcanvas-top" tabIndex="-1" id="offcanvasTop">
+          <div className="offcanvas-body d-flex align-items-center align-items-center">
+            <div className="container">
+              <div className="row">
+                <div className="col">
+                  <div className="text-center">
+                    <h4>Search now.....</h4>
+                    <div className="subcribe-form mt-4">
+                      <form>
+                        <div className="mb-0">
+                          <input
+                            type="text"
+                            id="help"
+                            name="name"
+                            className="border bg-white rounded-pill"
+                            required=""
+                            placeholder="Search"
+                          />
+                          <button type="submit" className="btn btn-pills btn-primary">
+                            Search
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <ul className="buy-button list-inline mb-0">
           <li className="list-inline-item mb-0 pe-1">
-            <span data-bs-toggle="offcanvas" data-bs-target="offcanvasTop" aria-controls="offcanvasTop">
-              <i className="uil uil-search h5 text-dark align-middle"></i>
-            </span>
+            <i onClick={displayBoxSearch} className="uil uil-search h5 text-dark align-middle"></i>
           </li>
 
           <li className="list-inline-item mb-0">
