@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import SettingIcon from '../../Icon/SettingIcon';
 
 function Header() {
@@ -16,7 +15,7 @@ function Header() {
   const displayBoxSearch = () => {
     // const body = document.getElementsByTagName('body');
     // body.style.overflow = 'hiddent';
-    // body.padding-right = 15px
+    // body.padding-right =
   };
   return (
     <header id="topnav" className="defaultscroll sticky bg-white">
