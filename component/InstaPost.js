@@ -1,5 +1,5 @@
 import React from 'react';
-import InstagramIcon from '../Icon/Icon';
+import InstagramIcon from '../Icon/InstagramIcon';
 
 function InstaPost() {
   return (

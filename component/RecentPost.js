@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ArrowRight from '../Icon/Icon';
+import ArrowRight from '../Icon/ArrowRight';
 import Post from './Post';
 
 function RecentPost({ title }) {

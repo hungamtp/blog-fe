@@ -1,5 +1,5 @@
 import React from 'react';
-import ArrowRight from '../Icon/Icon';
+import ArrowRight from '../Icon/ArrowRight';
 function PopularPost() {
   return (
     <div className="container mt-4 mt-lg-0">

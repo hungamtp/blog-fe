@@ -1,6 +1,11 @@
 import React from 'react';
 
-import { Message, MailIcon, Home, Person, Facebook, InstagramIcon } from '../Icon/Icon';
+import MailIcon from '../Icon/MailIcon';
+import HomeIcon from '../Icon/HomeIcon';
+import PersonIcon from '../Icon/PersonIcon';
+import Message from '../Icon/Message';
+import Facebook from '../Icon/FaceBook';
+import InstagramIcon from '../Icon/InstagramIcon';
 
 function PostDetail() {
   return (
@@ -215,7 +220,7 @@ function PostDetail() {
                         </label>
                         <div class="form-icon position-relative">
                           <i class="fea icon-sm icons">
-                            <Person />
+                            <PersonIcon />
                           </i>
                           <input id="name2" name="name" type="text" placeholder="Name" class="form-control ps-5" required="" />
                         </div>
@@ -345,7 +350,7 @@ function PostDetail() {
 
               <a href="index-blog.html" class="btn btn-pills btn-icon btn-soft-primary">
                 <i class="icons">
-                  <Home />
+                  <HomeIcon />
                 </i>
               </a>
 
@@ -381,7 +386,7 @@ function PostDetail() {
 
                   <div class="mt-4">
                     <div class="d-flex align-items-center">
-                      <img src="/asset/images/blog/01.jpg" class="avatar avatar-small rounded" style="width: auto;" alt="" />
+                      <img src="/asset/images/blog/01.jpg" class="avatar avatar-small rounded" style={{ width: 'auto' }} alt="" />
                       <div class="flex-1 ms-3">
                         <a href="javascript:void(0)" class="d-block title text-dark">
                           Consultant Business
@@ -391,7 +396,7 @@ function PostDetail() {
                     </div>
 
                     <div class="d-flex align-items-center mt-3">
-                      <img src="/asset/images/blog/02.jpg" class="avatar avatar-small rounded" style="width: auto;" alt="" />
+                      <img src="/asset/images/blog/02.jpg" class="avatar avatar-small rounded" style={{ width: 'auto' }} alt="" />
                       <div class="flex-1 ms-3">
                         <a href="javascript:void(0)" class="d-block title text-dark">
                           Grow Your Business
@@ -401,7 +406,7 @@ function PostDetail() {
                     </div>
 
                     <div class="d-flex align-items-center mt-3">
-                      <img src="/asset/images/blog/03.jpg" class="avatar avatar-small rounded" style="width: auto;" alt="" />
+                      <img src="/asset/images/blog/03.jpg" class="avatar avatar-small rounded" style={{ width: 'auto' }} alt="" />
                       <div class="flex-1 ms-3">
                         <a href="javascript:void(0)" class="d-block title text-dark">
                           Look On The Glorious Balance

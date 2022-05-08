@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import SettingIcon from '../Icon/Icon';
+import SettingIcon from '../Icon/SettingIcon';
 
 function Header() {
   const toggleMenu = () => {

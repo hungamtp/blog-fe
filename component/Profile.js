@@ -1,7 +1,7 @@
 import React from 'react';
-import FaceBook from '../Icon/Icon';
-import InstagramIcon from '../Icon/Icon';
-import Linkedin from '../Icon/Icon';
+import FaceBook from '../Icon/FaceBook';
+import InstagramIcon from '../Icon/InstagramIcon';
+import Linkedin from '../Icon/Linkedin';
 
 function Profile() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import ArrowRight from '../Icon/Icon';
-import Heart from '../Icon/Icon';
+import ArrowRight from '../Icon/ArrowRight';
+import Heart from '../Icon/Heart';
 function EndBody() {
   return (
     <section className="section">
