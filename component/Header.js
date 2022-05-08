@@ -21,7 +21,7 @@ function Header() {
   return (
     <header id="topnav" className="defaultscroll sticky bg-white">
       <div className="container">
-        <a className="logo" href="index.html">
+        <a className="logo" href="/">
           <img src="/asset/images/logo-dark.png" height={24} className="logo-light-mode" alt="Logo" />
         </a>
 

@@ -11,12 +11,10 @@ function HomePage() {
   const titlePopularPost = 'Popular Post';
   return (
     <>
-      {/* <Slide />
+      <Slide />
       <SearchBar />
       <PopularPost />
-      <RecentPost title={titleRecentPost} /> */}
-      {/* <Profile /> */}
-      <PostDetail />
+      <RecentPost title={titleRecentPost} />
     </>
   );
 }
